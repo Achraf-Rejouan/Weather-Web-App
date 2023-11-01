@@ -1,23 +1,21 @@
 /* Import Google font - Open Sans */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background: #E3F2FD;
-}
+    background-color: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%);}
 
 h1 {
-    background: #5372F0;
     font-size: 1.75rem;
     text-align: center;
     padding: 18px 0;
-    color: #fff;
+    color: #222;
 }
 
 .container {
@@ -38,19 +36,19 @@ h1 {
     padding: 0 17px;
     margin: 10px 0 20px 0;
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid #222;
 }
 
 .weather-input input:focus {
     padding: 0 16px;
-    border: 2px solid #5372F0;
+    border: 2px solid #020202;
 }
 
 .weather-input .separator {
     height: 1px;
     width: 100%;
     margin: 25px 0;
-    background: #BBBBBB;
+    background: #222;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,11 +56,11 @@ h1 {
 
 .weather-input .separator::before {
     content: "or";
-    color: #6C757D;
+    color: #222;
     font-size: 1.18rem;
     padding: 0 15px;
     margin-top: -4px;
-    background: #E3F2FD;
+    background-color:#fffffd;
 }
 
 .weather-input button {
@@ -73,21 +71,22 @@ h1 {
     border: none;
     border-radius: 4px;
     font-size: 1rem;
-    color: #fff;
-    background: #5372F0;
-    transition: 0.2s ease;
+    color: #f9f9f9;
+    background-image: linear-gradient(160deg, #746fd2 0%, #2602c6 100%);
 }
 
 .weather-input .search-btn:hover {
-    background: #2c52ed;
+    background-image: linear-gradient(160deg, #524e9e 0%, #1e0297 100%);
+    transition: 0.2s ease;
 }
 
 .weather-input .location-btn {
-    background: #6C757D;
+    background: #4e3caa;
 }
 
 .weather-input .location-btn:hover {
-    background: #5c636a;
+    background: #27186a;
+    transition: 0.2s ease;
 }
 
 .weather-data {
@@ -95,9 +94,8 @@ h1 {
 }
 
 .weather-data .current-weather {
-    color: #fff;
-    background: #5372F0;
-    border-radius: 5px;
+    color: #ffffff;
+    background-image: linear-gradient(160deg, #524e9e 0%, #4b28e5 100%);    border-radius: 5px;
     padding: 20px 70px 20px 20px;
     display: flex;
     justify-content: space-between;
